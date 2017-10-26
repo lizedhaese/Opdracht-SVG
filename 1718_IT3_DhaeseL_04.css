@@ -1,0 +1,297 @@
+body{
+  font-family: myriad pro, regular;
+  margin: auto;
+}
+
+.logo{
+      width: 95%;
+      margin: auto;
+      display: block;
+}
+
+header{
+  margin-top: 175px;
+  max-width: 100%;
+  height: 450px;
+}
+
+main{
+}
+
+img{
+  max-width: 100%;
+}
+
+.me{
+  background-image: url("me.jpg");
+  height: 260px;
+  max-width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.tekst{
+  padding-top: 50px;
+}
+
+h1{
+  margin: auto;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  font-weight: normal;
+}
+
+main p{
+  font-size: 0.5em;
+  line-height: 70%;
+}
+
+
+main li{
+  font-size: 0.5em;
+}
+
+img{
+      display: block;
+      width: 96%;
+      height: auto;
+      padding: 1%;
+}
+
+footer{
+  padding-left: 5px;
+}
+
+footer a{
+  color: black;
+  padding-left: 5px;
+}
+
+.klein{
+  height: 40px;
+  margin: -17px;
+}
+
+@media (min-width: 500px) {
+      .me{
+        height:400px;
+      }
+
+      h1{
+        margin-top: 60px;
+      }
+
+
+@media (min-width: 600px) {
+      .me{
+        height:500px;
+      }
+
+      h1{
+        font-size: 1.2em;
+      }
+
+      main p{
+        font-size: 0.8em;
+        line-height: 70%;
+      }
+
+
+      main li{
+        font-size: 0.8em;
+      }
+
+                  }
+@media (min-width: 700px){
+
+      .me{
+        height: 500px;
+      }
+
+      h1{
+        margin: auto;
+        color: black;
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: normal;
+      }
+
+      main p{
+        font-size: 1em;
+        line-height: 70%;
+      }
+
+
+      main li{
+        font-size: 1em;
+      }
+
+      .tekst{
+        padding-top: 120px;
+      }
+
+      .logo{
+            width: 75%;
+      }
+
+      header{
+        margin-top: 100px;
+        height: 550px;
+      }
+
+      .klein{
+        height: 50px;
+        margin: -17px;
+      }
+
+      }
+
+@media (min-width: 800px){
+
+      #grid{
+        grid-template-columns: 100px 100px 100px 1fr;
+        grid-template-rows: 300px 300px;
+      }
+
+      #proberen{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1;
+        padding-top: 10px;
+      }
+
+      .foto1{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 100%;
+      }
+
+      .foto2{
+        grid-row: 1;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        max-width: 100%;
+      }
+
+      .foto3{
+        grid-row: 1;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        max-width: 100%;
+      }
+
+      .foto4{
+        grid-row: 1;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        max-width: 100%;
+      }
+
+      #proberen2{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 2;
+        padding-top: 10px;
+      }
+
+      .foto5{
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+
+      .foto6{
+        grid-row: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+
+      .foto7{
+        grid-row: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+      }
+
+      .foto8{
+        grid-row: 2;
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+
+      }
+
+@media (min-width: 900px){
+
+    .me{
+      height: 640px;
+    }
+
+    .tekst{
+      padding-top: 120px;
+    }
+
+    .logo{
+          width: 65%;
+    }
+
+    header{
+      margin-top: 70px;
+      height: 560px;
+    }
+
+    .klein{
+      height: 50px;
+      margin: -17px;
+    }
+
+  }
+
+  @media (min-width: 1000px){
+      .tekst{
+        padding-top: 120px;
+      }
+
+      .me{
+        height: 650px;
+      }
+
+      .logo{
+            width: 65%;
+      }
+
+      header{
+        margin-top: 70px;
+        height: 560px;
+      }
+
+      .klein{
+        height: 80px;
+        margin: -17px;
+      }
+
+    }
+
+      }
+
+  @media (min-width: 1100px){
+
+    .tekst{
+      padding-top: 170px;
+    }
+  }
+
+  @media (min-width: 1278px){
+    .tekst{
+      padding-top: 230px;
+    }
+
+    header{
+      margin-top: 30px;
+      height: 610px;
+    }
+
+    }
